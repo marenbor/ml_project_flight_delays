@@ -1,25 +1,25 @@
 # Flight Delay Prediction Project
-This project aims to predict flight delays using machine learning techniques.
+This project aims to predict flight delays using machine learning techniques. We used the Zindi challenge "Predicting flight delays for Tunisair". 
 
 ## Project Structure
 - `data/` - Contains the dataset files (`Train.csv`, `Test.csv`, etc.).
-- `models/` - Stores trained models.
-- `notebooks/` - Jupyter Notebooks for EDA, preprocessing, modeling, and evaluation.
-- `scripts/` - Python scripts for preprocessing, model training, and evaluation.
-- `docs/` - Documentation, reports, and presentation files.
+- `models/` - Stores trained models including evaluation and error analysis.
+- `notebooks/` - Jupyter Notebooks for EDA, data cleaning and feature engineering. 
+- `docs/` - Presentation
 
 ## Uses
-1. Used `notebooks/01_data_exploration.ipynb` to explore data.
-2. Used `notebooks/02_data_cleaning_preprocessing.ipynb` to clean and preprocess data.
-3. Trained a baseline model in `notebooks/03_baseline_model.ipynb`.
-4. Experimented with advanced models in `notebooks/04_advanced_models.ipynb`.
-5. Evaluated model performance in `notebooks/05_model_evaluation.ipynb`.
-6. Trained the final model in `notebooks/06_final_model_training.ipynb`.
-7. Generated predictions for submission in `notebooks/07_submission_generation.ipynb`.
+1. Used `notebooks/00_EDA_Parya/Maren.ipynb` to explore data.
+2. Used `notebooks/01_data_cleaning.ipynb` to clean and preprocess data.
+3. Used `notebooks/02_feature_engineering.ipynb` to create new features especially encode categorial features. The `notebooks/02_feature_engineering_classifier.ipynb` is created for the CatBoost classification model.
+5. Trained a baseline model in `models/baseline_model.ipynb`.
+6. Experimented with advanced models in `models/LightGBM.ipynb`, `models/CatBoost.ipynb` and `models/XGBoost.ipynb`
+7. Evaluated model performance in the corresponding model files.
+8. Choosed the final model with the best RMSE.
 
 ## Contributors in alphabetical order
 - Eva
 - Jonas
 - Maren
 - Parya
+
 
