@@ -1,5 +1,9 @@
 # Flight Delay Prediction Project
-This project aims to predict flight delays using machine learning techniques. We used the Zindi challenge "Predicting flight delays for Tunisair". 
+This project aims to predict flight delays using machine learning techniques. We used the Zindi challenge "Predicting flight delays for Tunisair".
+
+We used the following datasets:
+- Zindi challenge: https://zindi.africa/competitions/flight-delay-prediction-challenge 
+- Zindi dataset was merged with the following dataset, containing airport data: https://datahub.io/core/airport-codes
 
 ## Project Structure
 - `data/` - Contains the dataset files (`Train.csv`, `Test.csv`, etc.).
